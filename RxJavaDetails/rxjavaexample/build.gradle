@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'io.reactivex.rxjava2:rxjava:2.0.7'
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
